@@ -1,0 +1,281 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+        /* header start */
+        header {
+            padding: 0;
+        }
+        .logo {
+            width: 190px;
+        }
+        .menu ul li a {
+            margin-bottom: 6px;
+            padding: 0 10px !important;
+        }
+        .btn_sign {
+            margin-left: 5px;
+            padding: 8px 15px;
+        }
+        /* header end */
+        /* banner start */
+        .banner {
+            padding: 10px 0 60px;
+        }
+        .b_content {
+            padding-top: 25px;
+            text-align: center;
+        }
+        .b_h1 {
+            padding: 0 0px;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .b_p2{
+            padding: 0;
+            line-height: 25px;
+        }
+        .b_img{
+            padding: 0;
+        }
+        /* banner end */
+        /* features start */
+        .feature{
+            padding: 0 0 60px;
+        }
+        .f_item{
+            margin-top: 35px;
+            padding: 45px 0 40px;
+        }
+        .f_h2{
+            font-size: 20px;
+        }
+        /* feature end */
+        /* courses start */
+        .c_item{
+            margin: 40px 0px 0;
+        }
+        .cmn_padding{
+            padding: 0 0 60px;
+        }
+        .c_h2 {
+            margin: 15px 0 0px;
+            font-size: 22px;
+        }
+        .c_btn {
+            margin: 10px 0 22px;
+            padding: 6px 10px;
+        }
+        .c_left ul li i , .c_right ul li i{
+            font-size: 16px;
+        }
+        .cus_lit:not(:last-child){
+            margin-right: 0;
+        }
+        /* courses end */
+        /* testimony start */
+        .t_item{
+            margin-top: 30px;
+        }
+        .t_img{
+            padding: 0 65px 30px;
+        }
+        .t_text{
+            text-align: center;
+        }
+        /* testimony end */
+        /* footer start */
+        .ft_details {
+            padding: 55px 0 20px;
+            text-align: center;
+        }
+        .fd_p{
+            padding: 0;
+        }
+        .fd_item{
+            margin-bottom: 35px;
+        }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        /* header start */
+        header {
+            padding: 0;
+        }
+        .logo {
+            width: 190px;
+        }
+        .menu ul li a {
+            margin-bottom: 6px;
+            padding: 0 10px !important;
+        }
+        .btn_sign {
+            margin-left: 5px;
+            padding: 8px 15px;
+        }
+        /* header end */
+        /* banner start */
+        .b_content {
+            padding-top: 25px;
+            text-align: center;
+        }
+        .b_h1 {
+            padding: 0 50px;
+            font-size: 40px;
+            line-height: 55px;
+        }
+        .b_p2{
+            padding: 0 30px;
+            line-height: 30px;
+        }
+        .b_img{
+            padding: 0 70px;
+        }
+        /* banner end */
+        /* features start */
+        .feature{
+            padding: 0 0 60px;
+        }
+        .f_item{
+            margin-top: 35px;
+            padding: 45px 0 40px;
+        
+        }
+        /* feature end */
+        /* courses start */
+        .cmn_padding{
+            padding: 0 0 60px;
+        }
+        .c_item{
+            margin: 50px 35px 0;
+            padding: 25px 20px 30px;
+        }
+        .c_h2{
+            margin-bottom: 0px;
+            font-size: 22px;
+        }
+        .c_btn {
+            margin: 10px 0 22px;
+            padding: 8px 14px;
+        }
+        /* courses end */
+        /* testimony start */
+        .t_item{
+            margin-top: 30px;
+        }
+        .t_img{
+            padding: 0 110px 30px;
+        }
+        .t_text{
+            text-align: center;
+        }
+        /* testimony end */
+        /* footer start */
+        .ft_details {
+            text-align: center;
+        }
+        .fd_p{
+            padding: 0;
+        }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */
+    .menu ul li a {
+        margin-bottom: 6px;
+        padding: 0 10px !important;
+    }
+    .btn_sign {
+        margin-left: 5px;
+    }
+    /* header end */
+    /* banner start */
+    .b_content {
+        padding-top: 25px;
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0 100px 0;
+    }
+    .b_p2{
+        padding: 0 60px;
+    }
+    .b_img{
+        padding: 0 70px;
+    }
+    /* banner end */
+    /* features start */
+    .feature{
+        padding: 0 0 80px;
+    }
+    /* feature end */
+    /* courses start */
+    .c_item{
+        margin: 50px 35px 0;
+        padding: 25px 20px 30px;
+    }
+    .c_h2{
+        margin-bottom: 0PX;
+    }
+    .c_btn {
+        margin: 13px 0 22px;
+        padding: 8px 18px;
+        font-size: 15px;
+    }
+    .t_item{
+        margin-top: 40px;
+    }
+    /* testimony end */
+    /* footer start */
+    .ft_details {
+        text-align: center;
+    }
+    .fd_p{
+        padding: 0;
+    }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+        /* courses start */
+        .cus_lit:not(:last-child){
+            margin-right: 0;
+        }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* banner start */
+    .b_h1 {
+        padding-right: 44px;
+    }
+    .b_p2{
+        padding-right: 91px;
+    }
+    /* banner end */
+    /* feature start */
+    .f_h2{
+        font-size: 24px;
+    }
+    .f_img {
+        width: 70px;
+        height: 85px;
+    
+    }
+ }
+
+/* Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    /* banner start */
+    .b_h1 {
+        padding-right: 119px;
+    }
+    .b_p2{
+        padding-right: 166px;
+    }
+    /* banner end */
+    /* feature start */
+    .f_h2{
+        font-size: 24px;
+    }
+} 
